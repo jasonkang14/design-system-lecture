@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      body: ["Noto Sans KR"],
+    },
     fontSize: {
       xs: [
         "12px",
