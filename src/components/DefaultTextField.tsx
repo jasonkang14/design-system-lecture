@@ -15,7 +15,6 @@ interface IDefaultTextFieldProps {
 }
 
 export default function DefaultTextField({
-  id,
   errorMessage,
   iconPath,
   iconAlt,
@@ -26,22 +25,24 @@ export default function DefaultTextField({
   isError,
 }: IDefaultTextFieldProps) {
   const [isFocused, setIsFocused] = useState(false);
+  const borderColor = isFocused
+    ? "border-secondary"
+    : !value
+    ? "border-mono300"
+    : "border-primary";
 
   return (
-    <div className="relative text-field">
+    <div>
       <div
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         className={`
-      flex
-      items-center
-      justify-between
-      text-base text-primary border-b ${
-        isFocused ? "border-secondary" : "border-primary"
-      }`}
+    text-primary
+    border-b
+    ${borderColor}
+    `}
       >
         <input
-          id={id}
           className="outline-none"
           placeholder={placeholder}
           value={value}
