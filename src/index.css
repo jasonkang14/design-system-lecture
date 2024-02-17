@@ -5,3 +5,8 @@
 body {
   font-family: "Noto Sans KR";
 }
+
+input {
+  outline: none;
+  border: none;
+}
