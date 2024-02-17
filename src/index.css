@@ -10,4 +10,11 @@ body {
   .text-field > p {
     @apply absolute;
   }
+  .navigation-title-wrapper > button {
+    @apply mr-[7px];
+  }
+}
+
+* {
+  box-sizing: border-box;
 }
