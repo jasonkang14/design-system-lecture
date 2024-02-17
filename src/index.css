@@ -6,7 +6,8 @@ body {
   font-family: "Noto Sans KR";
 }
 
-input {
-  outline: none;
-  border: none;
+@layer components {
+  .text-field > p {
+    @apply absolute;
+  }
 }
