@@ -1,5 +1,7 @@
-name: 'Storybook Tests'
+name: 'Accessibility'
+
 on: push
+
 jobs:
   test:
     timeout-minutes: 60
