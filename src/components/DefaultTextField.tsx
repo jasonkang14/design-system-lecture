@@ -15,6 +15,7 @@ interface IDefaultTextFieldProps {
 }
 
 export default function DefaultTextField({
+  id,
   errorMessage,
   iconPath,
   iconAlt,
@@ -43,6 +44,7 @@ export default function DefaultTextField({
     `}
       >
         <input
+          id={id}
           className="outline-none"
           placeholder={placeholder}
           value={value}
