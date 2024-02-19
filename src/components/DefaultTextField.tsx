@@ -44,6 +44,7 @@ export default function DefaultTextField({
     `}
       >
         <input
+          data-testid={id}
           id={id}
           className="outline-none"
           placeholder={placeholder}

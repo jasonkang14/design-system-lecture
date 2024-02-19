@@ -7,6 +7,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@storybook/addon-a11y", //👈 The a11y addon goes here
+    "@storybook/addon-interactions",
   ],
   framework: {
     name: "@storybook/react-vite",
