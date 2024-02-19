@@ -17,6 +17,9 @@ jobs:
         # ⚠️ Pick one of these, matching the package manager for your project
         run: npm ci
 
+      - name: Test Accessibility
+        run: npm run test-storybook
+
       - name: Publish to Chromatic
         uses: chromaui/action@latest
         with:
