@@ -16,16 +16,16 @@ export default function CategoryButton({
   return (
     <button
       className={`
-      rounded-button-default
-      border
-      boder-primary
+        rounded-button-default
+        border
+        boder-primary
       text-primary
-      text-base
-      font-bold
-      pl-[22px]
-      pr-[21px]
-      py-4
-      ${flexColCenter}
+        text-base
+        font-bold
+        pl-[22px]
+        pr-[21px]
+        py-4
+        ${flexColCenter}
     `}
       onClick={onClick}
     >
