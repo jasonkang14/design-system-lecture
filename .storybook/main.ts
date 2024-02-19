@@ -1,4 +1,7 @@
 import type { StorybookConfig } from "@storybook/react-vite";
+import type { AddonOptionsVite } from "@storybook/addon-coverage";
+
+
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
@@ -8,6 +11,7 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding",
     "@storybook/addon-a11y", //👈 The a11y addon goes here
     "@storybook/addon-interactions",
+    "@storybook/addon-coverage", //👈 Registers the addon
   ],
   framework: {
     name: "@storybook/react-vite",
