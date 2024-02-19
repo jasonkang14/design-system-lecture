@@ -12,7 +12,7 @@ const meta = {
   argTypes: {
     iconAlt: {
       control: "text",
-      description: "이미지의 alt 속성",
+      description: "아이콘 alt 속성",
       defaultValue: "icon",
     },
     iconPath: {
