@@ -10,8 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic --exit-zero-on-changes",
-    "test-storybook": "test-storybook"
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "@fontsource/noto-sans-kr": "^5.0.17",
