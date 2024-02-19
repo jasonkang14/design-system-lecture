@@ -1,8 +1,18 @@
 {
-  "name": "design-system-lecture",
-  "private": true,
-  "version": "0.0.0",
+  "name": "jason-kang-storybook-lecture",
+  "description": "Storybook Lecture by Jason Kang on Inflearn",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "files": [
+    "src/components",
+    "index.css",
+    "src/mixins"
+  ],
+  "main": "src/components/index.tsx",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
