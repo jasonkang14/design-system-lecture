@@ -9,9 +9,12 @@ const config: StorybookConfig = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
-    "@storybook/addon-a11y", //👈 The a11y addon goes here
+    //👈 The a11y addon goes here
+    "@storybook/addon-a11y",
     "@storybook/addon-interactions",
-    "@storybook/addon-coverage", //👈 Registers the addon
+    //👈 Registers the addon
+    "@storybook/addon-coverage",
+    "@storybook/addon-mdx-gfm"
   ],
   framework: {
     name: "@storybook/react-vite",
@@ -20,8 +23,6 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
-  core: {
-    builder: "@storybook/builder-vite",
-  },
+  core: {},
 };
 export default config;
