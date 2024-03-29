@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { fn } from "@storybook/test";
 
 import PrimaryButton from "../components/PrimaryButton";
 
@@ -37,6 +38,9 @@ const meta = {
     },
 
     onClick: { action: "clicked", description: "버튼 클릭 이벤트" },
+  },
+  args: {
+    onClick: fn(),
   },
 } satisfies Meta<typeof PrimaryButton>;
 
