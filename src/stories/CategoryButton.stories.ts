@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 
 import CategoryButton from "../components/CategoryButton";
 
-const meta = {
+const meta: Meta = {
   title: "Buttons/CategoryButton",
   component: CategoryButton,
   parameters: {

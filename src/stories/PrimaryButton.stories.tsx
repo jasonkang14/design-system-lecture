@@ -3,7 +3,7 @@ import { fn } from "@storybook/test";
 
 import PrimaryButton from "../components/PrimaryButton";
 
-const meta = {
+const meta: Meta = {
   title: "Buttons/PrimaryButton",
   component: PrimaryButton,
   parameters: {
