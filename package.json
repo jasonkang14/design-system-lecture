@@ -2,7 +2,7 @@
   "name": "jason-kang-storybook-lecture",
   "description": "Storybook Lecture by Jason Kang on Inflearn",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
   "publishConfig": {
