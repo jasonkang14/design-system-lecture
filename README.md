@@ -15,7 +15,7 @@ npm install jason-kang-storybook-lecture
 After installation, you must import the main CSS file in your project to access the full range of styles provided by Tailwind CSS. Add the following line to the root of your project such as `App.tsx` or `main.tsx`:
 
 ```javascript
-import 'jason-kang-storybook-lecture/index.css';
+import 'jason-kang-storybook-lecture/styles';
 ```
 
 And then you can import components from `jason-kang-storybook-lecture` directly like below
