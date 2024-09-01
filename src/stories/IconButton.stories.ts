@@ -19,7 +19,8 @@ const meta = {
     iconPath: {
       control: "text",
       description: "이미지의 경로",
-      defaultValue: "",
+      defaultValue:
+        "https://kr.object.ncloudstorage.com/icons/ic-delete-dark.svg",
     },
     onClick: { action: "clicked", description: "버튼 클릭 이벤트" },
   },
